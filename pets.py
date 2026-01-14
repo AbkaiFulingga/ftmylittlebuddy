@@ -54,8 +54,46 @@ class Buddy:
         stats = {
             "hunger": self.hunger,
             "happiness": self.happiness,
-            "energy": self.energy,
-            "cleanliness": self.cleanliness
+            "cleanliness": self.cleanliness,
+            "energy": self.energy
         }
-        lowest_stat = min(stats, key=stats.get)
-        return lowest_stat, stats[lowest_stat]s
+        return min(stats, key=stats.get), min(stats.values())
+    
+    def update_emotion(self):
+        stat_name, value = self.get_lowest_stat()
+        if value < 30:
+            if stat_name == "hunger":   
+                self.emotion = 'hungry'
+            elif stat_name == "happiness":
+                self.emotion = 'bored'
+            elif stat_name == "cleanliness":
+                self.emotion = 'dirty'
+            elif stat_name == "energy":
+                self.emotion = 'tired'
+        elif all (s>70 for s in [self.hunger, self.happiness, self.cleanliness, self.energy]):
+            self.emotion = "sparkly"
+        else:
+            self.emotion = "neutral"
+            
+    def evolve(self):
+        current = time.time()
+        if all(s > 60 for s in [self.hunger, self.happiness, self.cleanliness, self.energy]):
+            elapsed = current - self.last_evolution_check
+            if self.stage == 1 and elapsed >= 180:  # 3 mins
+                self.stage = 2
+                return True
+            elif self.stage == 2 and elapsed >= 300:  # 5 mins total
+                self.stage = 3
+                return True
+        else:
+            self.last_evolution_check = current
+        return False
+    
+    def get_display_emoji(self):
+        base = self.emoji
+        if self.stage == 2:
+            return f"{base}⁺"
+        elif self.stage == 3:
+            return f"🌟{base}🌟"
+        else:
+            return base
