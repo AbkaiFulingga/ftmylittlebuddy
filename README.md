@@ -1,6 +1,6 @@
 My Little Buddy — Virtual Pet Simulator
 
-A charming, ASCII-art virtual pet simulator inspired by **Moshi Monsters**, **Tamagotchi**, and **Neopets**—built entirely in Python with **no external dependencies**!
+A charming, ASCII-art virtual pet simulator inspired by **Moshi Monsters**, **Tamagotchi**, and **Neopets** that is built entirely in Python with **no external dependencies**!
 
 
 ## Features
