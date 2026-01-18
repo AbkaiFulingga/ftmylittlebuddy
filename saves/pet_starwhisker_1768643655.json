@@ -1,0 +1,25 @@
+{
+  "pet_data": {
+    "species": "starwhisker",
+    "rarity": "rare",
+    "personality": [
+      "lazy"
+    ],
+    "hunger": 81.53999999999968,
+    "energy": 87.1039999999997,
+    "cleanliness": 79.35999999999979,
+    "happiness": 73.23199999999974,
+    "affection": 47.17999999999989,
+    "satisfaction": 0,
+    "stage": 1,
+    "evolution_timer": 94,
+    "evolution_ready": false,
+    "evolution_branch": null,
+    "blink_state": 1,
+    "last_blink": 1768643750.004562,
+    "last_breath": 1768643749.7035692,
+    "breath_phase": 5.18407346410209,
+    "last_action": "idle"
+  },
+  "last_saved": 1768643750.2048774
+}

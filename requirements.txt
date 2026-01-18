@@ -1,0 +1,3 @@
+# No external dependencies required for My Little Buddy
+# Tkinter is part of the Python standard library
+# All game logic is contained in the project files

@@ -1,0 +1,57 @@
+{
+  "buddy_bucks": 0,
+  "gacha_rolls": 1,
+  "unlocked_themes": [
+    "forest"
+  ],
+  "pet_collection": [
+    "starwhisker_1768643655"
+  ],
+  "last_daily_bonus": null,
+  "achievements": {
+    "evolved_pets": 0,
+    "satisfaction_rewards": 0,
+    "legendary_pets": 0,
+    "night_play": false,
+    "bubble_pop_total": 0
+  },
+  "achievement_state": {
+    "bubble_master": {
+      "unlocked": false,
+      "unlocked_at": null,
+      "claimed": false,
+      "claimed_at": null
+    },
+    "evolver": {
+      "unlocked": false,
+      "unlocked_at": null,
+      "claimed": false,
+      "claimed_at": null
+    },
+    "satisfied": {
+      "unlocked": false,
+      "unlocked_at": null,
+      "claimed": false,
+      "claimed_at": null
+    },
+    "legend_collector": {
+      "unlocked": false,
+      "unlocked_at": null,
+      "claimed": false,
+      "claimed_at": null
+    },
+    "night_owl": {
+      "unlocked": false,
+      "unlocked_at": null,
+      "claimed": false,
+      "claimed_at": null
+    },
+    "collector": {
+      "unlocked": false,
+      "unlocked_at": null,
+      "claimed": false,
+      "claimed_at": null
+    }
+  },
+  "current_theme": "forest"
+}
