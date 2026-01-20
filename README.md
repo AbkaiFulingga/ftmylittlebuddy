@@ -28,22 +28,8 @@ Each pet evolves based on your care style:
 - **Spark Form** (High Energy)
 - **Bonded Form** (High Affection)
 
-## 🛠️ Installation
-
-### Requirements
-- Python 3.7+
-- Tkinter
-
-### Linux Users (like me)
-```bash
-# Install Tkinter if missing
-sudo apt install python3-tk
-```
-
-### Setup
-1. Clone this repository or download all files
-2. Navigate to the project folder
-3. Run the game on main.py
+## Installation
+Just download and run the .exe!
 
 ## Starting Resources
 - **50 Buddy Bucks** 
@@ -95,3 +81,4 @@ All graphics are rendered using **AI GENERATION** with:
 
 
 DEV/testing - Use spacebar x8 to activate dev mode!
+Demo video - https://drive.google.com/file/d/10s7pHQmWZgoHdgd7uGWqfDkHWsk2a2xR/view?usp=sharing
