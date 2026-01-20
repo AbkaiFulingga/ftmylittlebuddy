@@ -82,3 +82,11 @@ All graphics are rendered using **AI GENERATION** with:
 
 DEV/testing - Use spacebar x8 to activate dev mode!
 Demo video - https://drive.google.com/file/d/10s7pHQmWZgoHdgd7uGWqfDkHWsk2a2xR/view?usp=sharing
+Installation - Linux https://drive.google.com/file/d/19x-GUgQ_CnB5HfsZyiz3FF07JABmGDo2/view?usp=sharing
+
+Screnshots
+<img width="648" height="824" alt="1768934660233" src="https://github.com/user-attachments/assets/69f386be-efb9-41ad-aea9-adafbc679b4b" />
+<img width="648" height="824" alt="1768934664471" src="https://github.com/user-attachments/assets/3c26c547-a1d9-442c-b4a9-afcaf687fb27" />
+<img width="648" height="824" alt="1768934716947" src="https://github.com/user-attachments/assets/f33eb65a-0f89-4706-9a9f-971468850355" />
+ <img width="398" height="539" alt="1768934721779" src="https://github.com/user-attachments/assets/3bd6f5db-96e6-41b4-8804-41b688f627b5" />
+ <img width="648" height="824" alt="1768934694745" src="https://github.com/user-attachments/assets/4a57a5af-ab8a-41d4-b70f-bf31ec12da25" />
